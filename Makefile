@@ -1,4 +1,4 @@
-TARGET=sum_on_thread
+TARGET=sum_on_multiple_threads
 
 SOURCES=$(TARGET).cpp
 
