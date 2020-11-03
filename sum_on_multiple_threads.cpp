@@ -42,7 +42,7 @@ int main(int argc, char **argv) {
   // Wait until threads are done its work
   for(int i = 0; i < num_args; i++) {
     pthread_join(tids[i], NULL);
-    printf("Sum is %lld\n", args[i].answer);
+    printf("Sum for thread %d is %lld\n", i, args[i].answer);
   }
 
 }
