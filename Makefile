@@ -1,4 +1,4 @@
-TARGET=sum_on_multiple_threads
+TARGET=sum_on_thread_dynamic_mem
 
 SOURCES=$(TARGET).cpp
 
