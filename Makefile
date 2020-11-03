@@ -1,4 +1,4 @@
-TARGET=sum_on_thread_dynamic_mem
+TARGET=count_pthread_mutex
 
 SOURCES=$(TARGET).cpp
 
